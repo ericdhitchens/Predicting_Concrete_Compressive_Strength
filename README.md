@@ -14,13 +14,13 @@ The dataset was retrieved from the UC Irvine Machine Learning Repository from th
 The dataset was donated to the UCI Repository by Prof. I-Cheng Yeh of Chung-Huah University, who retains copyright for the following published paper: I-Cheng Yeh, "Modeling of strength of high performance concrete using artificial neural networks," Cement and Concrete Research, Vol. 28, No. 12, pp. 1797-1808 (1998). Additional papers citing this dataset are listed at the reference link above.
 
 ## Repository Structure
-**01_Data** - Contains all data files in .xls or .xlsx and .csv format.
+### 01_Data - Contains all data files in .xls or .xlsx and .csv format.
 1. **Original** - The original data retrieved from the UCI dataset.
 2. **Transformed** - The files with my own calculations and reformatting of column headers.
 3. **Loaded** - The final data used in the Python Jupyter Notebooks.
 
 
-**02_Python_Code** - Contains the Jupyter notebooks and the csv files necessary to run them.
+### 02_Python_Code - Contains the Jupyter notebooks and the csv files necessary to run them.
 1. **Exploratory_Data_Analysis**
 	* READ THIS JUPYTER NOTEBOOK FIRST.
 	* Provides civil engineering domain background to fully understand the dataset.
@@ -37,7 +37,7 @@ The dataset was donated to the UCI Repository by Prof. I-Cheng Yeh of Chung-Huah
 	* Compares linear models' performances with the ANN and gives final conclusions and recommendations.
 
 
-**03_Keras_ANN_Models** - Contains the saved deep neural network architectures developed in the ANN_Modeling Jupyter notebook.
+### 03_Keras_ANN_Models - Contains the saved deep neural network architectures developed in the ANN_Modeling Jupyter notebook.
 1. **Flat_Model** - A deep neural network containing 44 hidden layers, each with 8 units.
 2. **Descending Model** - A deep neural network containing 44 hidden layers, with the final 7 hidden layers decreasing by one node per layer from 8 to 2.
 3. **Flat_Dropout_Model** - The same model as the Flat_Model, but half of the hidden layers drop out at a 0.5 rate.
