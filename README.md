@@ -1,4 +1,4 @@
-# Predicting_Concrete_Compressive_Strength
+# Predicting Concrete Compressive Strength with Deep Neural Networks in TensorFlow 2.0
 
 ## Overview
 The purpose of this project is to predict the compressive strength of concrete given initial quantities of its components and the age after mixing and installation ("cure time"). The engineering term for the relative amounts of each material contained within a concrete mix is called the "mix design." The following materials comprise a mix design:
