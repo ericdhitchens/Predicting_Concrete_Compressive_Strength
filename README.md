@@ -19,6 +19,7 @@ The dataset was donated to the UCI Repository by Prof. I-Cheng Yeh of Chung-Huah
 2. **Transformed** - The files with my own calculations and reformatting of column headers
 3. **Loaded** - The final data used in the Python Jupyter Notebooks
 
+
 **02_Python_Code** - Contains the Jupyter notebooks and the csv files necessary to run them
 1. **Exploratory_Data_Analysis**
 	* READ THIS JUPYTER NOTEBOOK FIRST
@@ -34,6 +35,7 @@ The dataset was donated to the UCI Repository by Prof. I-Cheng Yeh of Chung-Huah
 	* READ THIS JUPYTER NOTEBOOK LAST
 	* Runs linear models on the various concrete constituents independently
 	* Compares linear models' performances with the ANN and gives final conclusions and recommendations
+
 
 **03_Keras_ANN_Models** - Contains the saved deep neural network architectures developed in the ANN_Modeling Jupyter notebook
 1. **Flat_Model** - A deep neural network containing 44 hidden layers, each with 8 units
