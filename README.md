@@ -17,7 +17,7 @@ The dataset was donated to the UCI Repository by Prof. I-Cheng Yeh of Chung-Huah
 1. Data - Contains all data files in .xls or .xlsx and .csv format.
 	1. Original - The original data retrieved from the UCI dataset
 	2. Transformed - The files with my own calculations and reformatting of column headers
-	3 Loaded - The final data used in the Python Jupyter Notebooks
+	3. Loaded - The final data used in the Python Jupyter Notebooks
 2. Python_Code - Contains the Jupyter notebooks and the csv files necessary to run them
 	1. Exploratory_Data_Analysis
 		* READ THIS JUPYTER NOTEBOOK FIRST
