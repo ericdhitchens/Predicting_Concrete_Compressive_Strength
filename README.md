@@ -20,7 +20,7 @@ The dataset was donated to the UCI Repository by Prof. I-Cheng Yeh of Chung-Huah
 3. **Loaded** - The final data used in the Python Jupyter Notebooks.
 
 
-### 02_Python_Code - Contains the Jupyter notebooks and the csv files necessary to run them. Python files are also included for reference.
+### 02_Python_Code - The code was written in Jupyter Notebooks. Python files and PDF files (using LaTeX) are also included for reference.
 1. **Exploratory_Data_Analysis**
 	* READ THIS JUPYTER NOTEBOOK FIRST.
 	* Provides civil engineering domain background to fully understand the dataset.
