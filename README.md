@@ -11,7 +11,10 @@ The purpose of this project is to predict the compressive strength of concrete g
 ## The Dataset
 The dataset was retrieved from the UC Irvine Machine Learning Repository from the following URL: <https://archive.ics.uci.edu/ml/datasets/Concrete+Compressive+Strength>. The dataset provides laboratory testing data for 1,030 concrete samples, tested at different curing times, with different mix designs.
 
-The dataset was donated to the UCI Repository by Prof. I-Cheng Yeh of Chung-Huah University, who retains copyright for the following published paper: I-Cheng Yeh, "Modeling of strength of high performance concrete using artificial neural networks," Cement and Concrete Research, Vol. 28, No. 12, pp. 1797-1808 (1998). Additional papers citing this dataset are listed at the reference link above.
+The dataset was donated to the UCI Repository by Prof. I-Cheng Yeh of Chung-Huah University, who retains copyright for the following published paper: 
+* I-Cheng Yeh, "Modeling of strength of high performance concrete using artificial neural networks," Cement and Concrete Research, Vol. 28, No. 12, pp. 1797-1808 (1998). 
+
+Additional papers citing this dataset are listed at the reference link above.
 
 ## Repository Structure
 ### 01_Data - Contains all data files in .xls or .xlsx and .csv format.
