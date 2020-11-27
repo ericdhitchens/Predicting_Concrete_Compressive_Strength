@@ -50,4 +50,4 @@ Contains the saved deep neural network architectures developed in the ANN_Modeli
 
 
 ### 04_PDF_Reports
-Contains PDFs of the Jupyter notebooks from the 02_Python_Code folder. The PDFs were generated via LaTeX from the Jupyter Notebook platform.
+Contains PDFs of the Jupyter notebooks from the 02_Python_Code folder. The PDFs were generated via LaTeX from the Jupyter Notebook platform. They are intended to be read starting with 01, then 02, then 03.
