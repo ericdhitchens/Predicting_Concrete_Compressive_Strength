@@ -17,13 +17,15 @@ The dataset was donated to the UCI Repository by Prof. I-Cheng Yeh of Chung-Huah
 Additional papers citing this dataset are listed at the reference link above.
 
 ## Repository Structure
-### 01_Data - Contains all data files in .xls or .xlsx and .csv format.
+### 01_Data
+Contains all data files in .xls or .xlsx and .csv format.
 1. **Original** - The original data retrieved from the UCI dataset.
 2. **Transformed** - The files with my own calculations and reformatting of column headers.
 3. **Loaded** - The final data used in the Python Jupyter Notebooks.
 
 
-### 02_Python_Code - The code was written in Jupyter Notebooks. Python files and PDF files (using LaTeX) are also included for reference.
+### 02_Python_Code
+Contains the code that was written in Jupyter Notebooks. Python files are also included for reference. PDF reports generated via LaTeX from the Jupyter notebooks are presented in 04_PDF_Reports.
 1. **Exploratory_Data_Analysis**
 	* READ THIS JUPYTER NOTEBOOK FIRST.
 	* Provides civil engineering domain background to fully understand the dataset.
@@ -40,7 +42,12 @@ Additional papers citing this dataset are listed at the reference link above.
 	* Compares linear models' performances with the ANN and gives final conclusions and recommendations.
 
 
-### 03_Keras_ANN_Models - Contains the saved deep neural network architectures developed in the ANN_Modeling Jupyter notebook.
+### 03_Keras_ANN_Models 
+Contains the saved deep neural network architectures developed in the ANN_Modeling Jupyter notebook:
 1. **Flat_Model** - A deep neural network containing 44 hidden layers, each with 8 units.
 2. **Descending Model** - A deep neural network containing 44 hidden layers, with the final 7 hidden layers decreasing by one node per layer from 8 to 2.
 3. **Flat_Dropout_Model** - The same model as the Flat_Model, but half of the hidden layers drop out at a 0.5 rate.
+
+
+### 04_PDF_Reports
+Contains PDFs of the Jupyter notebooks from the 02_Python_Code folder. The PDFs were generated via LaTeX from the Jupyter Notebook platform.
